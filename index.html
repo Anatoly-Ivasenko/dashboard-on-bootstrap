@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Anatoly Ivasenko">
+    <title>My Dashboard</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Company name</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="#">Sign out</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="sidebar-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span data-feather="home"></span>
+                                Dashboard <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file"></span>
+                                User Profile
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart"></span>
+                                Maps
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="users"></span>
+                                Notifications
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2"></span>
+                                Support
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Dashboard</h1>
+                </div>
+                <div class="MainFlexContainer">
+                    <div class="FlexRow">
+                        <div class="Scard">
+                            <img class="ScardPicto" src="img/data_white.svg">
+                            <p>User space</p>
+                            <h5>49/50 GB</h5>
+                            <hr>
+                            <a href="#"><img class="PictoInText" src="img/alert.png"> Get more space...</a>
+                            <p class="spacer"></p>
+                        </div>
+                        <div class="Scard">
+
+                        </div>
+                        <div class="Scard">
+
+                        </div>
+                        <div class="Scard">
+
+                        </div>
+                    </div>
+                    <div class="FlexRow">
+                        <div class="Mcard">
+                            <img class="McardPicto" src="img/graphics.svg">
+                            <h6>Daily Sales</h6>
+                            <p>55% increase
+                                in today sales</p>
+                            <hr>
+                            <p class="minitext"><img class="PictoInText" src="img/time.png"> updated 4 minutes ago</p>
+                        </div>
+                        <div class="Mcard">
+
+                        </div>
+                        <div class="Mcard">
+
+                        </div>
+                    </div>
+                    <div class="FlexRow">
+                        <div class="Lcard">
+                            <div class=navcard>
+                                <p> Tasks:</p>
+                                <button>Bugs</button>
+                                <button>Website</button>
+                                <button>Server</button>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" checked="yes" value="1" size=""></td>
+                                    <td class="description">Sign contract for "What are conference organizes afraid of?"</td>
+                                    <td><img src="img/edit.png"></td>
+                                    <td><img src="img/remove.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" value="2"></td>
+                                    <td>Sign contract for "What are conference organizes afraid</td>
+                                    <td><img src="img/edit.png"></td>
+                                    <td><img src="img/remove.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" value="3"></td>
+                                    <td>Sign contract for "What are conference organizes afraid</td>
+                                    <td><img src="img/edit.png"></td>
+                                    <td><img src="img/remove.png"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" checked="yes" value="4"></td>
+                                    <td>Sign contract for "What are conference organizes afraid</td>
+                                    <td><img src="img/edit.png"></td>
+                                    <td><img src="img/remove.png"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="Lcard">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"><\/script>')
+    </script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="scripts/dashboard.js"></script>
+</body></html>

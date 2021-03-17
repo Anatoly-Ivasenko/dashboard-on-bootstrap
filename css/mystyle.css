@@ -1,0 +1,175 @@
+.PictoInText {
+    position:relative; 
+    bottom:1px;
+    height: 13px;
+}
+
+.MainFlexContainer {
+    display: flex;
+    flex-flow: column;
+}
+
+.FlexRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlexRow div {
+    background-color: gainsboro;
+    border: gray solid 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.FlexRow h5 {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.FlexRow hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+.FlexRow a {
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 9pt;
+}
+
+.FlexRow a:visited {
+    color: black
+}
+
+.Scard {
+    width: 23%;
+}
+
+.Scard p {
+    margin-top: 10%;
+    text-align: end;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.Scard .spacer {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.Scard h5 {
+    text-align: end;
+}
+
+.Scard .ScardPicto {
+    float: left;
+    background-color: blue;
+    width: 30%;
+    border-radius: 10px;
+    padding: 5%;
+    border: gray solid 1px;
+    position: relative;
+    left: 12px;
+    bottom: 12px;
+}
+
+.Mcard {
+    width: 31%;
+    margin-top: 40px;
+}
+
+.Mcard h6 {
+
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Mcard p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Mcard .minitext {
+    font-size: 9pt;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Mcard .McardPicto {
+    width: 92%;
+    background-color: green;
+    border-radius: 10px;
+    padding: 5%;
+    border: gray solid 1px;
+    position: relative;
+    left: 4%;
+    bottom: 12px;
+
+}
+
+.Lcard {
+    width: 48%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.Lcard .navcard {
+    width: 90%;
+    display: flex;
+    height: 30%;
+    align-items: center;
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    background-color: orange;
+}
+
+.Lcard .navcard p {
+    margin: 0;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.Lcard .navcard button {
+    font-size: 10pt;
+    border:0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orange;
+}
+
+.Lcard .navcard button:hover {
+    background-color: orangered;
+}
+
+.Lcard td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 9pt;
+
+}
+
+.Lcard img {
+    width: 16px;
+}
+
+.Lcard .description {
+    width: 97%;
+}
+
+
